@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { AutenticacaoRoutingModule } from './autenticacao-routing.module';
 import { LoginComponent } from './login/login.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 
 @NgModule({
   declarations: [
-    LoginComponent
+    LoginComponent,
+    PerfilComponent
   ],
   imports: [
     CommonModule,
